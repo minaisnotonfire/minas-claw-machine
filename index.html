@@ -8,38 +8,41 @@
 </head>
 <body>
 <main class="wrap">
-  <h1>little cloud claw club</h1>
-  <p>pocket arcade. free plays.</p>
+<h1>little cloud claw club</h1>
+<p class="intro">pocket arcade. plays are free, claw is not fair.</p>
 
-  <div class="layout"> 
-  <section class="machine">
-   <p class="marquee">one more try?</p>
+<div class="layout">
+<section class="machine">
+<p class="marquee"><small>one more try?</small> plushies in the back</p>
 
 <div class="window">
 <canvas id="game" width="400" height="330"></canvas>
- <p class="banner">pick one</p>
- </div>
-
- <p id="status">line it up, then drop</p>
-<div class="buttons">
-<button id="left" type="button">left</button>
-<button id="drop" type="button">drop</button>
-<button id="right" type="button">right</button>
+<p class="banner">pick a little friend</p>
 </div>
 
+<p id="status">line it up, then drop</p>
+<div class="buttons">
+<button id="left" type="button" aria-label="Move claw left">←</button>
+<button id="drop" type="button">drop</button>
+<button id="right" type="button" aria-label="Move claw right">→</button>
+</div>
+
+<div class="bottom">
+<span>free plays</span>
 <div class="chute">prize door</div>
-  </section>
+</div>
+</section>
 
- <aside class="shelf">
-  <h2>brought home</h2>
- <p><span id="count">0</span> / 6</p>
-   <div id="collection"></div>
+<aside class="shelf">
+<h2>brought home</h2>
+<p class="sub"><span id="count">0</span> / 6</p>
+<div id="collection"></div>
 <p class="note">arrows move it. space drops. buttons do the same thing.</p>
- <button id="restock" type="button">refill</button>
- </aside>
-  </div>
+<button id="restock" type="button">refill the pile</button>
+</aside>
+</div>
 
-  <p class="footer">2026 · mina</p>
+<p class="footer">2026 · mina</p>
 </main>
 <script src="script.js"></script>
 </body>
