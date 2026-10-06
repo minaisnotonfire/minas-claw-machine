@@ -1,1 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>little cloud claw club</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="wrap">
+  <h1>little cloud claw club</h1>
+  <p>pocket arcade. free plays.</p>
 
+  <div class="layout"> 
+  <section class="machine">
+   <p class="marquee">one more try?</p>
+
+<div class="window">
+<canvas id="game" width="400" height="330"></canvas>
+ <p class="banner">pick one</p>
+ </div>
+
+ <p id="status">line it up, then drop</p>
+<div class="buttons">
+<button id="left" type="button">left</button>
+<button id="drop" type="button">drop</button>
+<button id="right" type="button">right</button>
+</div>
+
+<div class="chute">prize door</div>
+  </section>
+
+ <aside class="shelf">
+  <h2>brought home</h2>
+ <p><span id="count">0</span> / 6</p>
+   <div id="collection"></div>
+<p class="note">arrows move it. space drops. buttons do the same thing.</p>
+ <button id="restock" type="button">refill</button>
+ </aside>
+  </div>
+
+  <p class="footer">2026 · mina</p>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
